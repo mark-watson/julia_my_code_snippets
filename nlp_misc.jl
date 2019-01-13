@@ -1,5 +1,7 @@
 using TextAnalysis
 
+# examples derived and/or copied from TextAnalysis documentation
+
 str = "President Clinton went to Mexico to visit the Cocoa Cola Compnay offices in Mexico City last year."
 sd = StringDocument(str)
 
