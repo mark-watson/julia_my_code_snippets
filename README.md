@@ -37,3 +37,17 @@ note: may not be compatible yet with Julia 1.x
 reference:  https://juliaobserver.com/packages/Levenshtein
 
 note: didn't work for me with Julia 1.03
+
+## Text indexing and search using FMindexes
+
+reference: https://github.com/BioJulia/FMIndexes.jl
+note: not yet compatible with Julia version 1.x
+
+## Kanren
+
+reference: https://github.com/habemus-papadum/LilKanren.jl
+
+## wrapper for Microsoft's Z3 theorm prover
+
+reference: https://github.com/zenna/Z3.jl
+may not be compatible with Julia 1.x
