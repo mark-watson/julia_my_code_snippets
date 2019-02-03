@@ -1,5 +1,9 @@
 # julia_my_code_snippets
 
+load into repl using:
+
+        include("rdf_client.jl")
+
 ## string tokenization
 
 good reference:  https://github.com/JuliaText/WordTokenizers.jl

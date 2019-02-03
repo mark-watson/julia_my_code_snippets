@@ -5,7 +5,7 @@ using TextAnalysis
 str = "President Clinton went to Mexico to visit the Cocoa Cola Compnay offices in Mexico City last year."
 sd = StringDocument(str)
 
-fd = FileDocument("sample.txt")
+fd2 = FileDocument("sample.txt")
 
 my_tokens = String["To", "be", "or", "not", "to", "be..."]
 td = TokenDocument(my_tokens)
@@ -17,19 +17,19 @@ ngd = NGramDocument(my_ngrams)
 
 # get the text from a document:
 
-text(fd)
+text(fd2)
 
 # tokenize a document:
 
-tokens(fd)
+tokens(fd2)
 
 # generate bigrams from a document:
 
-ngrams(fd, 2)
+ngrams(fd2, 2)
 
 # determine language:
 
-language(fd)
+language(fd2)
 
 # modify a string document removing bad unicode characters:
 
@@ -54,14 +54,14 @@ stem!(sd)
 
 # copy a file document into a new string document:
 
-sd2 = StringDocument(text(fd))
+sd2 = StringDocument(text(fd2))
 
 # working with collections of cocuments: creating a corpus
 
 str = "President Clinton went to Mexico to visit the Cocoa Cola Compnay offices in Mexico City last year."
 sd = StringDocument(str)
 
-crps = Corpus(Any[sd, fd])
+crps = Corpus(Any[sd, fd2])
 
 # standardize all documents in a corpus into a single document type:
 
