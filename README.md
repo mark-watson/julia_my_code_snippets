@@ -55,3 +55,8 @@ reference: https://github.com/habemus-papadum/LilKanren.jl
 
 reference: https://github.com/zenna/Z3.jl
 may not be compatible with Julia 1.x
+
+## Wrapper for Julia ML ecosystem data sets
+
+reference: https://juliaobserver.com/packages/MLDataUtils
+documentation: https://mldatautilsjl.readthedocs.io/en/latest/
