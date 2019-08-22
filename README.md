@@ -57,3 +57,8 @@ reference: https://github.com/zenna/Z3.jl
 may not be compatible with Julia 1.x
 
 ## https://github.com/JuliaML/MLDatasets.jl for getting MNIST, etc.
+
+## Wrapper for Julia ML ecosystem data sets
+
+reference: https://juliaobserver.com/packages/MLDataUtils
+documentation: https://mldatautilsjl.readthedocs.io/en/latest/
