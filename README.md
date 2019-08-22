@@ -55,3 +55,5 @@ reference: https://github.com/habemus-papadum/LilKanren.jl
 
 reference: https://github.com/zenna/Z3.jl
 may not be compatible with Julia 1.x
+
+## https://github.com/JuliaML/MLDatasets.jl for getting MNIST, etc.
