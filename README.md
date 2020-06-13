@@ -62,3 +62,7 @@ may not be compatible with Julia 1.x
 
 reference: https://juliaobserver.com/packages/MLDataUtils
 documentation: https://mldatautilsjl.readthedocs.io/en/latest/
+
+## Donate on Patreon to support all of my projects
+
+Please visit [https://www.patreon.com/markwatson](https://www.patreon.com/markwatson) and sign up to donate $1/month
