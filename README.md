@@ -34,7 +34,12 @@ reference:  https://juliaobserver.com/packages/TopicModels
 
 reference:  https://juliaobserver.com/packages/WordNet
 
-note: may not be compatible yet with Julia 1.x
+using WordNet
+db = DB()
+lemma = db['a', "glad"]
+ss = synsets(db, lemma)
+antonyms(db, ss[1])
+
 
 ## Levenshtein
 
@@ -45,7 +50,7 @@ note: didn't work for me with Julia 1.03
 ## Text indexing and search using FMindexes
 
 reference: https://github.com/BioJulia/FMIndexes.jl
-note: not yet compatible with Julia version 1.x
+note: may not yet compatible with Julia version 1.x
 
 ## Kanren
 
@@ -63,6 +68,3 @@ may not be compatible with Julia 1.x
 reference: https://juliaobserver.com/packages/MLDataUtils
 documentation: https://mldatautilsjl.readthedocs.io/en/latest/
 
-## Donate on Patreon to support all of my projects
-
-Please visit [https://www.patreon.com/markwatson](https://www.patreon.com/markwatson) and sign up to donate $1/month
